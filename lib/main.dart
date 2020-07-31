@@ -5,6 +5,7 @@ import 'Ui/Home.dart';
 import 'ui/HomeScreen.dart';
 import 'Ui/ContainerPractice.dart';
 import 'Ui/MiCardProject.dart';
+import 'Ui/StateFull.dart';
 
 //void main() => runApp( new MaterialApp(  // practice app
 //  debugShowCheckedModeBanner: false,
@@ -15,4 +16,6 @@ import 'Ui/MiCardProject.dart';
 
 //void main()=> runApp(ContainerPractice());
 
-void main()=> runApp(MiCardProject());
+//void main()=> runApp(MiCardProject());
+
+void main()=> runApp(Dice());
