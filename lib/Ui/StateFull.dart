@@ -34,7 +34,7 @@ class _DiceState extends State<Dice> {
           child: SafeArea(
             child: Row(
               children: <Widget>[
-                Expanded(
+                Expanded(    // use expanded to stop overflow image or anything inside a screen
                   child: FlatButton(
                     onPressed: () {
                       updateDiceState();
