@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 //import 'Ui/ContainerPractice.dart';
 //import 'Ui/MiCardProject.dart';
 //import 'Ui/StateFull.dart';
-import 'Ui/Xylophone.dart';
+//import 'Ui/Xylophone.dart';
+import 'Ui/Quiz.dart';
 
 //void main() => runApp( new MaterialApp(  // practice app
 //  debugShowCheckedModeBanner: false,
@@ -21,4 +22,6 @@ import 'Ui/Xylophone.dart';
 
 //void main()=> runApp(Dice());
 
-void main()=> runApp(Xylophone()); // implement a xylophone
+//void main()=> runApp(Xylophone()); // implement a xylophone
+
+void main()=> runApp(QuizApp());
